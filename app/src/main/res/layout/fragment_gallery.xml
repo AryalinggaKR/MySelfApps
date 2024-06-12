@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+        <!--
+            Tanggal Pengerjaan : 12 Juni 2024
+            NIM : 10118368
+            Nama : Aryalingga Karamasatya Radhiendra
+            Kelas : AKB UL1
+        -->
+    <TextView
+        android:id="@+id/galeri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ic_gallery"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:padding="16dp"
+        android:background="@drawable/title"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        android:background="@color/ungu2"/>
+
+</LinearLayout>

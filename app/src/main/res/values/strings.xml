@@ -1,0 +1,29 @@
+<!--
+    Tanggal Pengerjaan : 12 Juni 2024
+    NIM : 10118368
+    Nama : Aryalingga Karamasatya Radhiendra
+    Kelas : AKB UL1
+-->
+<resources>
+    <string name="app_name">MySelfApps</string>
+    <string name="tunggu">Tunggu Sebentar...</string>
+    <string name="ic_home">Home</string>
+    <string name="ic_daily">Daily Activity</string>
+    <string name="ic_gallery">Gallery</string>
+    <string name="ic_music">Music</string>
+    <string name="ic_profile">Profile</string>
+    <string name="btn_skip">Skip</string>
+    <string name="nama">Aryalingga Karamasatya Radhiendra</string>
+    <string name="mwe">"mwehehe"</string>
+    <string name="ttl">TTL  : Bandung, 12 April 2000</string>
+    <string name="hobi">Hobi : Main Game, Menggambar</string>
+    <string name="makes">Makes : Melon</string>
+    <string name="mikes">Mikes : Air Putih</string>
+    <string name="friendlist">Friendlist</string>
+    <string name="notelp">No. Telp : 087722764955</string>
+    <string name="contact">Contact Me</string>
+    <string name="email">Email : aryalinggakr@gmail.com</string>
+    <string name="versi">version 1.0</string>
+    <string name="bleh">BlehBlew</string>
+
+</resources>

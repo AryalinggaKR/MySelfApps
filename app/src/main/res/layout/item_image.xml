@@ -1,0 +1,13 @@
+<!--
+    Tanggal Pengerjaan : 12 Juni 2024
+    NIM : 10118368
+    Nama : Aryalingga Karamasatya Radhiendra
+    Kelas : AKB UL1
+-->
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/imageView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scaleType="centerCrop"
+    android:adjustViewBounds="true"
+    android:padding="8dp"/>

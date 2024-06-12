@@ -1,0 +1,90 @@
+<!--
+    Tanggal Pengerjaan : 12 Juni 2024
+    NIM : 10118368
+    Nama : Aryalingga Karamasatya Radhiendra
+    Kelas : AKB UL1
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ic_home"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:padding="16dp"
+        android:background="@drawable/title"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/img_foto"
+        android:layout_gravity="center"
+        android:background="@drawable/circle_background"/>
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:text="@string/nama"/>
+
+    <TextView
+        android:id="@+id/mwe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        android:padding="10dp"
+        android:text="@string/mwe"/>
+
+    <TextView
+        android:id="@+id/ttl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:text="@string/ttl"
+        android:textColor="@color/white"
+        android:background="@drawable/style_a"/>
+
+    <TextView
+        android:id="@+id/hobi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:text="@string/hobi"
+        android:textColor="@color/white"
+        android:background="@drawable/style_a"/>
+
+    <TextView
+        android:id="@+id/makes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:text="@string/makes"
+        android:textColor="@color/white"
+        android:background="@drawable/style_a"/>
+
+    <TextView
+        android:id="@+id/mikes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:text="@string/mikes"
+        android:textColor="@color/white"
+        android:background="@drawable/style_a"/>
+
+</LinearLayout>

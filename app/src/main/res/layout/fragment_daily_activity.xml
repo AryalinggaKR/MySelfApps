@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--
+        Tanggal Pengerjaan : 12 Juni 2024
+        NIM : 10118368
+        Nama : Aryalingga Karamasatya Radhiendra
+        Kelas : AKB UL1
+    -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DailyActivityFragment">
+
+    <TextView
+        android:id="@+id/daily"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ic_daily"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:padding="16dp"
+        android:background="@drawable/title"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewActivities"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/friendlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/friendlist"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:padding="16dp"
+        android:background="@drawable/title"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewFriendList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:clipToPadding="false"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        android:orientation="horizontal" />
+
+
+</LinearLayout>
